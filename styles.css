@@ -491,21 +491,6 @@ a:focus {
    RESPONSIVE STYLES              
 -----------------------------------------*/
 
-/* @media screen and (min-width: 1200px) {
-
-    .about-info h2 {
-        max-width: 70%;
-    }
-} */
-
-@media screen and (min-width: 991px) {
-
-    .project h2 {
-        /* max-width: 32%; */
-        margin: 0 auto;
-    }
-}
-
 @media screen and (max-width: 991px) {
 
     .hero {
@@ -514,6 +499,10 @@ a:focus {
 
     .hero-text {
         bottom: 2em;
+    }
+    
+    .hero-image {
+        width: 100%;
     }
 
     .navbar {
