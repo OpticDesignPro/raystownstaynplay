@@ -146,25 +146,25 @@ resume = () => {
 
 window.onscroll = function () { scrollFunction() };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("navbar").style.background = "none";
-        document.getElementById("navbar-brand").style.color = "var(--dark-color)";
-        const navLinks = document.getElementsByClassName('nav-link')
-        for (let i = 0; i < navLinks.length; i++) {
-            navLinks[i].style.color = 'var(--dark-color)'
-        }
-        // document.getElementById("nav-link").style.color = "var(--dark-color)";
-    } else {
-        document.getElementById("navbar").style.background = "linear-gradient(180deg, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 100%)";
-        document.getElementById("navbar-brand").style.color = "var(--secondary-color)";
-        const navLinks = document.getElementsByClassName('nav-link')
-        for (let i = 0; i < navLinks.length; i++) {
-            navLinks[i].style.color = 'var(--secondary-color)'
-        }
-        // document.getElementById("nav-link").style.color = "var(--secondary-color)";
-    }
-}
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         document.getElementById("navbar").style.background = "none";
+//         document.getElementById("navbar-brand").style.color = "var(--dark-color)";
+//         const navLinks = document.getElementsByClassName('nav-link')
+//         for (let i = 0; i < navLinks.length; i++) {
+//             navLinks[i].style.color = 'var(--dark-color)'
+//         }
+//         // document.getElementById("nav-link").style.color = "var(--dark-color)";
+//     } else {
+//         document.getElementById("navbar").style.background = "linear-gradient(180deg, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 100%)";
+//         document.getElementById("navbar-brand").style.color = "var(--secondary-color)";
+//         const navLinks = document.getElementsByClassName('nav-link')
+//         for (let i = 0; i < navLinks.length; i++) {
+//             navLinks[i].style.color = 'var(--secondary-color)'
+//         }
+//         // document.getElementById("nav-link").style.color = "var(--secondary-color)";
+//     }
+// }
 
 $(function () {
 
