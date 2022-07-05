@@ -456,8 +456,7 @@ a:focus {
     color: var(--secondary-color);
 }
 
-.copyright-text,
-.site-footer {
+.copyright-text {
     margin-top: 6em;
 }
 
