@@ -30,7 +30,11 @@
 body {
     background: var(--dark-color);
     font-family: var(--base-font-family);
-
+    background-image: url(https://media.istockphoto.com/photos/sunrise-picture-id531253600?k=20&m=531253600&s=612x612&w=0&h=Q-q9YYdHwdvWEp5dIBAcwO8e1i6Oem9yQiQhAEzqi9A=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -73,7 +77,7 @@ h4 {
 }
 
 p {
-    color: var(--p-color);
+    color: var(--dark-color);
     font-size: 20px;
     line-height: 1.5em;
 }
@@ -99,18 +103,20 @@ strong {
 }
 
 .custom-btn.btn-bg {
-    background: var(--white-color);
+/*     background: var(--white-color);
     color: var(--dark-color);
-    font-weight: 600;
+    font-weight: 600; */
     /* border-color: transparent; */
     transition: all .3s ease;
 }
 
 .custom-btn:hover,
 .custom-btn:focus {
-    background: var(--dark-color);
+/*     background: var(--dark-color);
     color: var(--white-color);
-    border-color: transparent;
+    border-color: transparent; */
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color)
 }
 
 
@@ -142,7 +148,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: var(--secondary-color);
+    color: var(--dark-color);
     outline: none;
     text-decoration: none;
 }
@@ -168,8 +174,8 @@ a:focus {
 -----------------------------------------*/
 
 .navbar {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 100%);
+/*     background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 100%); */
     z-index: 2;
     top: 0;
     right: 0;
@@ -180,21 +186,22 @@ a:focus {
 
 
 .navbar-brand {
-    color: var(--secondary-color);
+    color: var(--dark-color);
     font-size: var(--h2-font-size);
 }
 
 .nav-link {
-    color: var(--secondary-color);
-    font-size: 18px;
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 0.4px;
     margin: 0 1.6em;
     padding: 0.6em;
 }
 
-.nav-link.active,
+/* .nav-link.active, */
 .nav-link:hover {
-    color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -299,9 +306,10 @@ a:focus {
 }
 
 .hero-bg {
-    background: rgb(252, 0, 0);
+/*     background: rgb(252, 0, 0);
     background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%);
-    background-size: auto;
+    background-size: auto; */
+    background: transparent;
 }
 
 .hero-image {
@@ -321,8 +329,9 @@ a:focus {
 
 .about {
     position: relative;
-    background: rgb(252, 0, 0);
-    background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%);
+/*     background: rgb(252, 0, 0);
+    background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%); */
+    background: transparent;
     height: 100%;
     min-height: 100vh;
     overflow: hidden;
@@ -364,8 +373,8 @@ a:focus {
 -----------------------------------------*/
 
 .photos {
-    background: rgb(252, 0, 0);
-    background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%);
+/*     background: rgb(252, 0, 0);
+    background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%); */
     padding: 100px 0;
     overflow: hidden;
 
@@ -389,8 +398,8 @@ a:focus {
 -----------------------------------------*/
 
 .testimonial {
-    background: rgb(252, 0, 0);
-    background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%);
+/*     background: rgb(252, 0, 0);
+    background: linear-gradient(180deg, rgba(252, 0, 0, 1) 0%, rgba(255, 244, 0, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 244, 0, 1) 75%, rgba(252, 0, 0, 1) 100%); */
     height: 100vh;
     overflow: hidden;
 }
@@ -419,11 +428,11 @@ a:focus {
 -----------------------------------------*/
 
 .site-footer {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 15%, rgba(255, 0, 0, 1) 100%);
+/*     background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 15%, rgba(255, 0, 0, 1) 100%); */
     padding: 7em 0 6em 0;
     overflow: hidden;
-    color: var(--secondary-color);
+    color: var(--dark-color);
     max-width: 100%;
 }
 
@@ -449,7 +458,7 @@ a:focus {
 }
 
 .site-footer a {
-    color: var(--white-color);
+    color: var(--dark-color);
 }
 
 .site-footer a:hover {
