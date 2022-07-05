@@ -443,7 +443,7 @@ a:focus {
 
 .contactForm>h2 {
     font-weight: 600;
-    color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 .contact-info {
