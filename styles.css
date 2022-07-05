@@ -378,7 +378,7 @@ a:focus {
 
 .mySlides2>img {
     width: 100%;
-    border: 10px outset silver;
+    border: 15px outset silver;
 }
 
 
@@ -669,6 +669,10 @@ img {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+}
+
+.prev2 {
+    left: 0;
 }
 
 .next,
