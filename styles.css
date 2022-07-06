@@ -63,9 +63,11 @@ h2 {
 }
 
 h3 {
-    font-size: var(--h3-font-size);
-    font-weight: 100;
-    margin-bottom: 0;
+    color: var(--secondary-color);
+    font-family: var(--base-font-family);
+    /* font-size: var(--p-font-size); */
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -472,7 +474,7 @@ a:focus {
 
 .footer-info {
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 
